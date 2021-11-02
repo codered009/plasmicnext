@@ -1,0 +1,77 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "jwv3sFTRCEhWt4X1hDRzar",
+      "projectApiToken": "2mQAziQQlDYImapkNtiJJm0tKE61Ncp8qQK1WfzwTTllZ1DepUF0k0xKml6qItUGFW8Ej5fRviSj9pRFiWJQ",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "di14zuAsFx",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "jwv3sFTRCEhWt4X1hDRzar",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "v3If6zkzP",
+          "name": "Rounded Rectangle 3 copy 2.png",
+          "filePath": "../public/plasmic/blank_project/images/roundedRectangle3Copy2Png.png"
+        },
+        {
+          "id": "yNjE6uraJ",
+          "name": "Rounded Rectangle 3 copy 18.png",
+          "filePath": "../public/plasmic/blank_project/images/roundedRectangle3Copy18Png.png"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Uv2EnkmWVa",
+        "name": "Screen",
+        "projectId": "jwv3sFTRCEhWt4X1hDRzar",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.166",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.166/dist/plasmic.schema.json"
+}
