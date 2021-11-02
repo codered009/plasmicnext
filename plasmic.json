@@ -40,6 +40,19 @@
           "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "8wfC04tAIi",
+          "name": "About",
+          "type": "managed",
+          "projectId": "jwv3sFTRCEhWt4X1hDRzar",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAbout.tsx",
+          "importSpec": {
+            "modulePath": "../pages/about.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAbout.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [],
