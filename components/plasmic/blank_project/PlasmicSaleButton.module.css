@@ -1,0 +1,26 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 180px;
+}
+.button:global(.__wab_instance) {
+  position: relative;
+  max-width: 159px;
+}
+.svg__m3OMv {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.svg__cfvJ {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}

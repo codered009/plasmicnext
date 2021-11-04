@@ -67,9 +67,74 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "switch"
+        },
+        {
+          "id": "ZrLdb-h3S7i",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "jwv3sFTRCEhWt4X1hDRzar",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "DbBotTTUde",
+          "name": "SaleButton",
+          "type": "managed",
+          "projectId": "jwv3sFTRCEhWt4X1hDRzar",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicSaleButton.tsx",
+          "importSpec": {
+            "modulePath": "SaleButton.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicSaleButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "oRqdtwF4cyb",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "jwv3sFTRCEhWt4X1hDRzar",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "qHn5u7leYl",
+          "name": "Products",
+          "type": "managed",
+          "projectId": "jwv3sFTRCEhWt4X1hDRzar",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicProducts.tsx",
+          "importSpec": {
+            "modulePath": "../pages/products.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicProducts.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
-      "icons": [],
+      "icons": [
+        {
+          "id": "5PZra_W0U4z",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "vfAmjKpczl4",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Checksvg.tsx"
+        }
+      ],
       "images": [
         {
           "id": "v3If6zkzP",
