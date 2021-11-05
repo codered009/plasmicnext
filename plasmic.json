@@ -147,6 +147,19 @@
           "cssFilePath": "plasmic/blank_project/PlasmicFeed.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "s9pms31Q_F",
+          "name": "Post",
+          "type": "managed",
+          "projectId": "jwv3sFTRCEhWt4X1hDRzar",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicPost.tsx",
+          "importSpec": {
+            "modulePath": "Post.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicPost.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
